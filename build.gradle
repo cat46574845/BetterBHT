@@ -144,6 +144,7 @@ dependencies {
         testImplementation 'org.junit.jupiter:junit-jupiter:5.7.1'
         testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     }
+    implementation files('libs/Botania r1.10-364.4.jar')
 }
 
 apply from: 'gradle/scripts/dependencies.gradle'
